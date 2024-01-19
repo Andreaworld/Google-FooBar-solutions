@@ -1,0 +1,13 @@
+Imagine you are the shooter, and you are looking around the room. The most obvious first shot is directly at the 
+trainer, and you can tell that because, well, you are looking directly at him without anything blocking your way.
+
+Now imagine, the walls are mirrors. When you look at the mirrors, you see millions of your own reflections, and 
+millions of the trainer. At some angles though when you look at one of the mirrors, it looks like you are looking
+directly at the trainer. You are looking directly at their reflection. The same logic for the direct shot applies
+here. When you look directly at one of the trainer's reflections, without anything between the reflection and you
+(whether in the real world or in "the mirror world"), that is also another path to shoot the trainer.
+
+The approach I have implemented is supposed to exploit this fact. Pretend that the mirror world is real and exists
+in 3d (well, 2d in this case, but anyway) space. All the program needs to do, is just find all the mirror world
+trainers, check if they are within maximum distance, and finally nothing is blocking the shot between you and the
+trainer, whether that is another mirror world trainer or a mirror world you.
